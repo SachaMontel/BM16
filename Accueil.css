@@ -241,9 +241,12 @@
     min-height: 239px;
   }
 
-  .u-section-2 .u-text-1 {
-    margin-left: 70px;
-    margin-right: 70px;
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 300px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 14px;
   }
 } .u-section-3 {
   background-image: none;
