@@ -5,12 +5,24 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background: url('chemin_vers_votre_image_de_fond.jpg') no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .annonce {
             border: 1px solid #ccc;
-            margin: 10px;
             padding: 10px;
             width: 300px;
+            background: #fff;
+            text-align: center;
         }
         .titre {
             font-size: 20px;
@@ -23,10 +35,14 @@
             color: #E91E63;
             font-weight: bold;
         }
+        .image {
+            width: 100%;
+        }
     </style>
 </head>
 <body>
     <div class="annonce">
+        <img class="image" src="chemin_vers_votre_image_dans_lannonce.jpg" alt="Image de l'annonce">
         <h2 class="titre">Charmant appartement au centre de Paris</h2>
         <p class="description">2 chambres, 1 salle de bain, cuisine équipée, wifi gratuit</p>
         <p class="prix">120€ par nuit</p>
